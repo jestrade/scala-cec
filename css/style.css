@@ -1,0 +1,175 @@
+body {
+    font-family: sans-serif;
+}
+
+body,
+p,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 175px;
+}
+
+.index-container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+}
+
+.container div {
+    width: 350px;
+}
+
+.left {
+    background: #1DA1F2;
+    height: 100vh;
+    width: 50%;
+}
+
+.right {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.right div {
+    width: 350px;
+}
+
+.big-logo {
+    height: 90%;
+    width: 90%;
+}
+
+.logo {
+    height: 54px;
+    width: 66px;
+}
+
+.main-logo {
+    margin-bottom: 26px;
+}
+
+.title {
+    color: #2D3748;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    color: #1A202C;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 24px;
+}
+
+.form label {
+    color: #4A5568;
+    display: block;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 11px;
+    width: 100%;
+}
+
+.input {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #2D3748;
+    line-height: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 11px;
+    padding: 17px 20px 17px 20px;
+    width: 100%;
+}
+
+.link {
+    color: #1DA1F2;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background: #1DA1F2;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 28px;
+    margin-bottom: 38px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    text-align: center;
+    width: 100%;
+}
+
+.button:hover {
+    background: rgba(29, 161, 242, 0.5);
+}
+
+.secondary-button {
+    border: #1DA1F2 1px solid;
+    border-radius: 5px;
+    color: #1DA1F2;
+    cursor: pointer;
+    display: block;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.helper-text {
+    margin-bottom: 27px;
+}
+
+.small-space {
+    margin-bottom: 9px;
+}
+
+.center {
+    text-align: center;
+}
+
+.sucess {
+    background: #c7ffc5;
+    border: 1px solid #02791a;
+    box-sizing: border-box;
+    color: #02791a;
+    padding: 10px 20px;
+}
+
+.error {
+    background: #FFB4B4;
+    border: 1px solid #F00;
+    box-sizing: border-box;
+    color: #F00;
+    padding: 10px 20px;
+}

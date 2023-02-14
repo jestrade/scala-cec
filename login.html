@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter | Login</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+</head>
+
+<body onload="onLoad()">
+
+    <main class="container">
+        <div>
+            <header>
+                <p><a href="index.html"><img class="logo" src="assets/img/logo.svg" alt="Logo" /></a></p>
+                <h1 class="title">My Twitter</h1>
+                <h2 class="subtitle">Login to your account</h2>
+            </header>
+            <section>
+                <form class="form">
+                    <p class="username">
+                        <label>Email or Username</label>
+                        <input class="input" type="text" placeholder="Email or Username" id="username" />
+                    </p>
+                    <p class="password">
+                        <label>Password</label>
+                        <input class="input" type="password" placeholder="Password" id="password" />
+                    </p>
+                    <p class="helper-text"><a class="link" href="password-recovery.html">Forgot Password</a>
+                    <div id="mensaje"></div>
+                    <p><button type="button" class="button" onclick="login()">Login now</button></p>
+                </form>
+            </section>
+            <footer>
+                <p class="helper-text center">Don't have an account? <a class="link" href="signup.html">Join free</a>
+                </p>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
